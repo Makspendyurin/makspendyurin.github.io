@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap');
+body {
+	margin: 0;
+	background-color: #BDBDBD;
+	font-family: 'Roboto Mono', monospace;
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+.empy_banner a {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #151515;
+}
+.empy_banner {
+	margin-top: 50px;
+	text-align: right;
+	font-size: 10pt;
+}
+.textban {
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+	background-color: #faf9d5;
+}
+.banner1, .banner2, .banner3, .banner4, .banner5, .banner6, .banner7, .banner8, .banner9 {
+	margin-top: 50px;
+	background-color: #faf9d5;
+}
+.img_romantizm {
+	margin-left: 10px;
+	margin-right: 25px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/romantizm.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.romantizm, .derevenskiy, .japan, .hi-tech, .classic, .konstruktivizm, .minimalizm, .african {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: flex;
+}
+.romantizm .text, .konstruktivizm .text, .derevenskiy .text, .minimalizm .text, .japan .text, .african .text, .hi-tech .text, .classic .text {
+	margin: auto;
+	margin-right: 0;
+	margin-left: 0;
+	width: 50%;
+}
+.img_konstruktivizm {
+	margin-left: 25px;
+	margin-right: 10px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/konstruktivizm.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_derevenskiy {
+	margin-left: 10px;
+	margin-right: 25px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/derevenskiy.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_minimalizm {
+	margin-left: 25px;
+	margin-right: 10px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/minimalizm.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_japan {
+	margin-left: 10px;
+	margin-right: 25px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/japan.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_african {
+	margin-left: 25px;
+	margin-right: 10px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/african.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_hi-tech {
+	margin-left: 10px;
+	margin-right: 25px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/hi-tech.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.img_classic {
+	margin-left: 10px;
+	margin-right: 25px;
+	padding-top: 200px;
+	padding-left: 300px;
+	background-image: url('../img/classic.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+span {
+	text-align: center;
+}
+form {
+	display: none;
+}
